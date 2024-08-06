@@ -1,0 +1,38 @@
+* {box-sizing: border-box; padding: 0; margin: 0;}
+
+span {
+    color: deeppink;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color:  rgb(136, 206, 233);
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+li:hover {
+    background-color:deeppink;
+  }
+
+/* section */
+
+.showcase {
+    height: 400px;
+    background-image: url("https://picsum.photos/id/2/1500/500/?blur=4")  ;
+}   
